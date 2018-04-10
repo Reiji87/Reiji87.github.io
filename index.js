@@ -2,10 +2,10 @@ var allRows = [];
 
 function onload(){
     readFromCsv();
-    // $(".pickBtn").click(function(){
-    //     $( ".pickBtn" ).prop( "disabled", true );
-    //         pickWinner();
-    //     });
+    $(".pickBtn").click(function(){
+        $( ".pickBtn" ).prop( "disabled", true );
+            pickWinner();
+        });
 }
 function readFromCsv(){
     $.ajax({
